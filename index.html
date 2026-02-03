@@ -47,6 +47,26 @@
             font-style: italic;
             opacity: 0.6;
             font-size: 0.9rem;
+            margin-bottom: 40px;
+        }
+        /* YENİ EKLENEN KISIM: YASAL LİNKLER */
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            font-size: 0.75rem;
+            opacity: 0.5;
+            display: flex;
+            gap: 20px;
+        }
+        .footer a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s, opacity 0.3s;
+        }
+        .footer a:hover {
+            color: #00d2ff;
+            opacity: 1;
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -55,5 +75,11 @@
     <p>Loading the future...</p>
     <div class="loader"></div>
     <div class="quote">"Verba volant, scripta manent. Aeterna vivit."</div>
+
+    <div class="footer">
+        <a href="privacy.html" target="_blank">Privacy Policy</a>
+        <a href="terms.html" target="_blank">Terms of Use (EULA)</a>
+        <span>&copy; 2026 Pgoby Solutions</span>
+    </div>
 </body>
 </html>
